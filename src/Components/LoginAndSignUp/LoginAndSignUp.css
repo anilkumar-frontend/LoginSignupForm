@@ -1,0 +1,124 @@
+.container{
+    width: 450px;
+    flex-direction: column;
+    margin: auto;
+    background-color: #fff;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    padding-top: 1px;
+    margin-top: 50px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+.text{
+    color: #340383;
+    font-size: 35px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+.underline{
+    width: 61px;
+    height: 4px;
+    background-color: #340383;
+    border-radius: 13px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 40px;
+}
+.input{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: auto;
+    width: 380px;
+    height: 53px;
+    background-color: #eaeaea;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+.input img{
+    margin: 0px 25px;
+}
+.input input{
+    width: 350px;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    color: #797979;
+    font-size: 16px;
+}
+.forget-password{
+    padding-left: 38px;
+    color: #797979;
+    font-size: 16px;
+    font-weight: 400;
+    transition: 0.3s;
+}
+.forget-password span{
+    color: #340383;
+    padding-left: 5px;
+    cursor: pointer;
+}
+.button-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin: 20px 0;
+}
+.button-box .btn{
+    width: 170px;
+    height: 45px;
+    font-size: 17px;
+    border: 0;
+    outline: 0;
+    border-radius: 50px;
+    background-color: #340383;
+    color: #fff;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+.gray{
+    background-color: #c7c6c6 !important;
+    color: #1f1f1f !important;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .container{
+        width: 380px;
+    }
+    .input{
+        width: 350px;
+        height: 45px;
+        gap: 6px;
+    }
+    .input img{
+        margin: 0px 10px;
+        width: 15px;
+    }
+    input{
+        font-size: 15px;
+    }
+    .forget-password{
+        padding-left: 18px;
+        font-size: 15px;
+    }
+    .button-box{
+        gap: 25px;
+    }
+    .button-box .btn{
+        width: 145px;
+        height: 43px;
+    }
+}
